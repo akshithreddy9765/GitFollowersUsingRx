@@ -14,6 +14,8 @@ public class Response {
     @SerializedName("avatar_url")
     private String imageUrl;
 
+    private String password;
+
     public Response(String userName, String imageUrl) {
         this.userName = userName;
         this.imageUrl = imageUrl;
